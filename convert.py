@@ -39,5 +39,4 @@ def convert_folder(folder):
     else:
         print(f"ERROR: garbage does not exist")
     
-
 convert_folder(Path("./heics"))
