@@ -1,8 +1,17 @@
 # Heic-Batch-To-Pdf
-Python application which transforms a folder of .HEIC files to one single combined PDF. Useful for paper homework submission to gradescope.
+Python application leveraging Google Drive API to convert a Drive folder of .HEIC images to one combined PDF. Useful for submitting series of IPhone images of paper homework to Gradescope / Canvas
 
-## IN DEVELOPMENT, ADDING GUI / FOLDER DROP SOON
+## Important
+As of now, folder id must be manually entered, working on searching by name / selection in GUI
+
 ## Run Locally
-## Run Locally (IN DEVELOPMENT, ADDING GUI / FOLDER DROP SOON)
+```bash
+  git clone https://github.com/BREISAMU/Heic-Batch-To-Pdf.git
 
-Clone the project
+  cd Heic-Batch-To-Pdf
+
+  pip install -r requirements.txt
+
+  ** SPECIFY FOLDER OF INTEREST IN params.py **
+
+  py process.py
