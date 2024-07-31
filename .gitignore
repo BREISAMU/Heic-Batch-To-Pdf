@@ -1,1 +1,7 @@
 
+**/.venv
+**/credentials.json
+**/token.json
+**/.env
+**/secrets.py
+**/__pycache__
