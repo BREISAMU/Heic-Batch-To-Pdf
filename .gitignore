@@ -3,3 +3,4 @@
 **/token.json
 **/.env
 **/secrets.py
+**/__pycache__
