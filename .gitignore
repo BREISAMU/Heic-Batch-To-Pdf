@@ -4,4 +4,3 @@
 **/.env
 **/secrets.py
 **/__pycache__
-**/params.py
